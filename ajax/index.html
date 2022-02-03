@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AJAX Demo</title>
+        <script type="text/javascript" src="cities.js"></script>
+    </head>
+    <body>
+        <select name="state" onchange="getCitiesByState(this.value)">
+            <option value="Colorado">Colorado</option>
+            <option value="Alabama">Alabama</option>
+        </select>
+        <p>Cities: <span id="cityList"></span></p>
+    </body>
+</html>
